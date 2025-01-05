@@ -4,10 +4,16 @@ A work around to get the camera working in fluidd.
 #### This requires root access to be enabled on the printer.
 <br>
 
-[placeholder video]<br>
-[![https://www.youtube.com/watch?v=qKrKXGRXfWs](https://img.youtube.com/vi/qKrKXGRXfWs/0.jpg)](https://www.youtube.com/watch?v=qKrKXGRXfWs)
 
-https://www.youtube.com/watch?v=qKrKXGRXfWs<br>
+Firmware updates may remove the changes so you may have to run the commands again after a firmware update.<br>
+With any luck creality just implements this so we dont have to perform this modification.
+
+<br>
+<br>
+
+[![https://www.youtube.com/watch?v=XHLAtVG9Bcg](https://img.youtube.com/vi/XHLAtVG9Bcg/0.jpg)](https://www.youtube.com/watch?v=XHLAtVG9Bcg)
+
+https://www.youtube.com/watch?v=XHLAtVG9Bcg<br>
 
 
 
