@@ -2,6 +2,13 @@
 A work around to get the camera working in fluidd.
 
 #### This requires root access to be enabled on the printer.
+<br>
+
+[placeholder video]<br>
+[![https://www.youtube.com/watch?v=qKrKXGRXfWs](https://img.youtube.com/vi/qKrKXGRXfWs/0.jpg)](https://www.youtube.com/watch?v=qKrKXGRXfWs)
+
+https://www.youtube.com/watch?v=qKrKXGRXfWs<br>
+
 
 
 <hr>
