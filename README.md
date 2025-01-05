@@ -16,6 +16,7 @@ cd K2-Camera-main
 service moonraker stop
 sh install.sh
 service moonraker start
+
 ```
 
 
@@ -33,6 +34,7 @@ cd K2-Camera-main
 service moonraker stop
 sh restore.sh
 service moonraker start
+
 ```
 
 
