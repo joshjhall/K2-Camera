@@ -39,7 +39,7 @@ if you wish to restore the printer to its original configuration then run the co
 
 ## Restore Commands
 ```sh
-sh ~/sh K2-Camera-main/restore.sh
+sh ~/K2-Camera-main/restore.sh
 
 ```
 
