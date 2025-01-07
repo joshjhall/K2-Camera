@@ -22,12 +22,9 @@ https://www.youtube.com/watch?v=XHLAtVG9Bcg<br>
 
 ## Install Commands
 ```sh
-python -c "from six.moves import urllib; urllib.request.urlretrieve('https://github.com/DnG-Crafts/K2-Camera/archive/refs/heads/main.zip', 'main.zip')" 
-python -c "import shutil; shutil.unpack_archive('main.zip', '')"
-rm main.zip
-service moonraker stop
-sh K2-Camera-main/install.sh
-service moonraker start
+python -c "from six.moves import urllib; urllib.request.urlretrieve('https://github.com/DnG-Crafts/K2-Camera/archive/refs/heads/main.zip', '/root/main.zip')" 
+python -c "import shutil; shutil.unpack_archive('/root/main.zip', '/root/')"
+sh ~/K2-Camera-main/install.sh
 
 ```
 
@@ -42,9 +39,7 @@ if you wish to restore the printer to its original configuration then run the co
 
 ## Restore Commands
 ```sh
-service moonraker stop
-sh K2-Camera-main/restore.sh
-service moonraker start
+sh ~/sh K2-Camera-main/restore.sh
 
 ```
 
