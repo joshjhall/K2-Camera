@@ -23,6 +23,6 @@ cp ~/K2-Camera-main/index.html /usr/share/frontend/index.html
 cp ~/K2-Camera-main/favicon.ico /usr/share/frontend/favicon.ico
 cp ~/K2-Camera-main/mylogo.png /usr/share/frontend/mylogo.png
 cp ~/K2-Camera-main/camera.html /usr/share/fluidd/camera.html
-cp ~/K2-Camera-main/snapshot.html /usr/share/frontend/snapshot.html
+cp ~/K2-Camera-main/snapshot.html /usr/share/fluidd/snapshot.html
 sh -c 'exec /etc/init.d/moonraker start'
 echo "Complete."
