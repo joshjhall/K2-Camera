@@ -45,9 +45,18 @@
           }
         }
       };
-      xhttp.open('POST', 'http://' + window.location.host.split(':')[0] + ':8000/call/webrtc_local');
-      xhttp.setRequestHeader('Content-Type', 'plain/text');
-      xhttp.send(btoa(JSON.stringify({ 'type': 'offer', 'sdp': sdp })));
+      if (window.location.host) {
+        let host = window.location.host.split(':')[0];
+        let isIPAddress = /^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$/.test(host); // Check if it's an IP address
+        let url = isIPAddress 
+          ? 'http://' + host + ':8000/call/webrtc_local' 
+          : 'https://video.' + host + '/call/webrtc_local';
+        xhttp.open('POST', url);
+        xhttp.setRequestHeader('Content-Type', 'plain/text');
+        xhttp.send(btoa(JSON.stringify({ 'type': 'offer', 'sdp': sdp })));
+      } else {
+        console.error('No valid host found in URL');
+      }
     }
     pc.ontrack = function (event) {
       if (window.MediaStreamTrackProcessor) {
